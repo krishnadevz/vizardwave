@@ -1,4 +1,6 @@
 // Import dependencies
+
+// spiderman gesture 
 import {Finger, FingerCurl, FingerDirection, GestureDescription} from 'fingerpose'; 
 
 // Define Gesture Description
