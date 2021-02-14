@@ -19,7 +19,6 @@ import { drawMesh } from "./utilities";
       //   inputResolution: { width: 640, height: 480 },
       //   scale: 0.8,
       // });
-      // NEW MODEL
       const net = await facemesh.load(facemesh.SupportedPackages.mediapipeFacemesh);
       setInterval(() => {
         detect(net);
